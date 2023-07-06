@@ -1,0 +1,42 @@
+.sidebar { 
+    position: fixed;
+    left: 0px;
+    top: 160px;
+    height: 100%; 
+    width: 120px;  
+    z-index: 2;     
+}
+.sidebar-icons {
+    height: 90px;
+    margin-bottom: 15px;
+}
+.sidebar-icons:hover {
+    background-color: gray;
+}
+.key {
+    width: 80px;
+    height: 50px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.sidewords {
+    padding-left: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.hobs {
+    font-size: 30px;
+    padding-left: 7px;
+    font-weight: bold;
+}
+.assembling {
+    height: 130px;
+}
+.assembling:hover {
+    background-color: gray;
+}
+.search-bar::placeholder {
+    font-family: Caprasimo, Arial;
+    font-size: 16px;
+}
+

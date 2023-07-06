@@ -1,0 +1,54 @@
+.head {
+    background-color: black;
+    color: white;
+    height: 160px;
+
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    align-items: start;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(192, 176, 176);
+    z-index: 4;
+
+}
+.topinfo {
+    padding-left: 50px;
+    padding-top: -500px;
+    width: 600px;
+    font-size: 16px;
+}
+.ne {
+    padding-top: -50px;
+}
+.name   {
+    font-size: 35px;
+    height: 10px;
+  
+}
+.address {  
+    width: 300px;
+    height: 5px;
+}
+.number {      
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+}
+.email {
+    color: rgb(250, 69, 69); 
+    width: 100px;
+    display: inline-block;
+    height: 5px;
+}
+.random {
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
