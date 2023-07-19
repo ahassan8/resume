@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.top-bar {
+    display: flex;
+    
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    background-color: transparent;
+    border: none;
+    padding-left: 24px;
+    font-weight: bold;
+  
+}
+.search-bar {
+    width: 350px;
+    height: 30px;
+}
+.top-bar button {
+    background-color: transparent;
+    border: none;
+    padding-left: 24px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.fa-solid {
+   width: 20px;
+   height: 10px;
+}
