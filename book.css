@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.book-header {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.book-bar {
+    display: flex;
+    
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    background-color: transparent;
+    border: none;
+    padding-left: 24px;
+    font-weight: bold;
+  
+}
+.book-search-bar {
+    width: 350px;
+    height: 30px;
+}
+.book-bar button {
+    background-color: transparent;
+    border: none;
+    padding-left: 24px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.fa-solid {
+   width: 20px;
+   height: 10px;
+}
+
+
+.bss {
+   
+    width: 100%;
+    height: 600px;
+    background: rgb(0,1,9);
+    background: linear-gradient(2deg, rgba(0,1,9,1) 10%, rgba(186,6,153,1) 95%, rgba(254,7,242,1) 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+.bc {
+    width: 300px;
+    height: 470px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-left: 30px;
+}
+
+.bt {
+    width: 220px;
+    height: 330px;
+}
+
+.ab {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;   
+    cursor: pointer;
+}
+
+.ab:hover {
+    background-color: rgb(117, 248, 117);
+}
+
+.bif {
+    opacity: 0.7;
+    color: white;
+}
+
+.price {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+.ap {
+    opacity: 0.5;
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.dt {
+    position:  absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 136, 136);
+    right: 5px;
+    top: 45px;
+    text-transform: capitalize;
+}
+
