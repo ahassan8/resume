@@ -61,7 +61,7 @@ function displayBooks() {
 
  
     cart = [];
-    saveToStorage(); // Save the empty cart to local storage
+    saveToStorage(); 
     });
     
     
