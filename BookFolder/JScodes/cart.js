@@ -1,4 +1,4 @@
-export let cart = JSON.parse(localStorage.getItem('cart')); // Correct 'item' to 'cart' here
+export let cart = JSON.parse(localStorage.getItem('cart')); 
 
 if (!cart) {
   cart = [
@@ -23,15 +23,14 @@ function saveToStorage() {
 
 
 
-// Function to add the selected book to the cart
 export function addToCart(book) {
     const existingBook = cart.find(item => item.id === book.id);
   
     if (existingBook) {
-      // If the book already exists in the cart, increase its quantity
+
       existingBook.quantity++;
     } else {
-      // If the book doesn't exist in the cart, add it with a quantity of 1
+
       book.quantity = 1;
       cart.push(book);
     }
@@ -46,7 +45,7 @@ export function addToCart(book) {
 export  function updateCartIcon() {
     const cartIcon = document.querySelector('.cart-item-count');
   
-    // Calculate the total quantity of books in the cart
+
     const totalQuantity = cart.reduce((total, book) => total + book.quantity, 0);
   
     cartIcon.textContent = totalQuantity.toString();
