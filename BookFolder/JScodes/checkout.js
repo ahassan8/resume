@@ -1,9 +1,9 @@
-// checkout.js
+
 import {cart} from './cart.js'
-import { books } from './data.js'; // Import the 'books' array from data.js
+import { books } from './data.js'; 
 
 export function generateCartHTML(cart) {
-    let bookPurchaseHTML = ''; // Initialize an empty string to store the HTML for all items
+    let bookPurchaseHTML = ''; 
   
     cart.forEach((cartItem) => {
       const bookId = cartItem.bookId;
@@ -16,7 +16,6 @@ export function generateCartHTML(cart) {
         }
       });
   
-      // Append the HTML for the current item to the "bookPurchaseHTML" variable
       bookPurchaseHTML += `
         <div class="book-card">
             <div class="book-image">
