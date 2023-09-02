@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden; 
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    position: relative;
+}
+
+.info-block {
+    background-color: rgb(255, 255, 255);
+}
+
+.pro-block {
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
