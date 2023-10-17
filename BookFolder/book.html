@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookstore E-commerce</title>
+  <link rel="stylesheet" href="BookStyles/header.css">
+  <link rel="stylesheet" href="BookStyles/scroll.css">
+  <link rel="stylesheet" href="BookStyles/search.css">
+  
+</head>
+<body>
+    <nav class="header">
+        <a href="#" class="logo">Abdi Hassan</a>
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Still increasing my coding skills...">
+          <button id="searchButton" onclick="searchBooks()">Search</button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="checkout.html" target="_blank">
+            <img src="icons/cart-icon.png" alt="Cart">
+            <span class="cart-item-count">0</span>
+          </a></li>
+        </ul>
+      </nav>
+  
+  
+
+  <div id="bookContainer">
+    <div class="scrollable-container"></div>
+  </div>
+
+  <button id="leftArrow">
+    <img class="left"   src="icons/arrow.png">
+  </button>
+  <button id="rightArrow">
+    <img class="right"   src="icons/arrow.png">
+  </button>
+
+  <div class="search-results" id="searchResults"></div>
+
+
+  <script type="module" src="JScodes/main.js"></script>
+
+
+
+</body>
+</html>
+
